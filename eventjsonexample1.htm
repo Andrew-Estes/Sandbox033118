@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Home</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.0/normalize.min.css" />
+    <link rel="stylesheet" href="../cs/andrewce.css" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"></script>
+</head>
+<body>
+    <h1>Home Page</h1>
+    <li class="event">
+        <div class="top">
+            <p class="preface">Preface for thing</p>
+            <div class="price"> 
+                <div class="money">$</div>
+                <div class="cost">00</div>
+            </div>
+        </div>
+        <div class="middle">
+            <div class="title">Title of thing</div>
+            <img class="image" src="img/image.jpg" />
+            <p class="source">website name</span></p>
+        </div>
+        <div class="bottom">
+            <button>view details</button>
+        <div>
+    </li>
+
+    <script>
+                
+        $.getJSON( "events.json", function( data ) {
+        var items = [];
+        $.each( data, function( key, val ) {
+            // no clue what to put here.
+        }).appendTo( "dateCards ul" );
+        });
+
+    </script>
+
+</body>
+</html>

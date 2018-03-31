@@ -1,0 +1,26 @@
+{
+  "event1": {
+    "title": "Title of thing",
+    "preface": "Preface for thing",
+    "cost": "00",
+    "image": "img/image.jpg",
+    "source": "website name",
+    "tags": [
+      "identifier-1",
+      "identifier-2"
+    ]
+  },
+
+  "event2": {
+    "title": "Title of thing2",
+    "preface": "Preface for thing2",
+    "cost": "01",
+    "image": "img/image.jpg",
+    "source": "website name2",
+    "tags": [
+      "identifier-1",
+      "identifier-2"
+    ]
+  }
+}
+
